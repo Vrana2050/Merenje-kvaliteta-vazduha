@@ -83,6 +83,7 @@ Najčešći parametri:
 * `co` – ugljen-monoksid
 
 Za svaku lokaciju i senzor, podaci tipično sadrže **24 merenja dnevno**, tj. **jedno merenje po satu**, što omogućava detaljnu vremensku analizu.
+Ovi podaci biće obogaćeni ostalim dostupnim podacima u okviru OpenAQ API-ja, a to bi bile dodatne informacije o: državama, gradovima, instrumentima itd.
 
 Cilj batch obrade je:
 
@@ -98,7 +99,7 @@ Sekundarni skup podataka dobavlja se korišćenjem **OpenAQ REST API-ja**, uz zv
 
 Važne karakteristike API-ja:
 
-* Rate limit: **oko 2000 zahteva po satu**
+* Rate limit: **2000 zahteva po satu**
 * Podaci se dobavljaju putem **polling mehanizma**
 * Ne postoji push / streaming endpoint
 
@@ -126,24 +127,24 @@ Važno je istaći sledeće principe:
 
 ### 5.1 Pitanja za paketnu (batch) obradu podataka
 
-1. Kako se prosečne godišnje vrednosti PM2.5 i PM10 menjaju po državama Evrope u posmatranom periodu?
+1. Kako se prosečne godišnje vrednosti određenog zagađivača menjaju po državama Evrope u posmatranom periodu?
 2. Koje lokacije imaju najveći broj dana sa prekoračenjem dozvoljenih granica zagađenja?
 3. Koji su sezonski obrasci zagađenja (po mesecima) za glavne gradove Evrope?
 4. Da li se uočava dugoročni trend poboljšanja ili pogoršanja kvaliteta vazduha po regionima?
-5. Koje lokacije predstavljaju „hot-spot“ tačke zagađenja tokom više uzastopnih godina?
-6. Kolika je varijabilnost satnih merenja PM2.5 po lokacijama i šta to govori o stabilnosti vazduha?
+5. Koliko često i koliko dugo traju epizode visokog zagađenja (uzastopni sati ili dani iznad definisanog praga) po lokacijama u Evropi?
+6. Koje lokacije imaju najveći broj kratkotrajnih, ali veoma visokih skokova zagađenja (npr. satna merenja višestruko veća od uobičajenih vrednosti za tu lokaciju)?
 7. Kako se razlikuju nivoi zagađenja između urbanih i manje urbanizovanih sredina?
-8. Koje lokacije imaju najveći procenat nedostajućih merenja i kakav je kvalitet njihovih podataka?
-9. Kako izgleda 30-dnevni i 365-dnevni pokretni prosek zagađenja po lokacijama (window funkcije)?
-10. Kako se nivoi različitih zagađivača međusobno korelišu na istim lokacijama?
+8. U kakvoj su korelaciji određeni tip zagađivač i temperatura vazduha?
+9. Kako izgleda mesečni i godišnji prosek zagađenja po lokacijama?
+10. Kakva je korelacija između koncentracija PM2.5 i PM10 na istim lokacijama u toku vremena?
 
 ---
 
 ### 5.2 Pitanja za obradu podataka u realnom vremenu
 
-1. Koje lokacije beleže nagli porast PM2.5 u poslednjih 60 minuta?
-2. Koje lokacije imaju najveću stopu rasta zagađenja u kratkim vremenskim prozorima (sliding window)?
+1. Koje lokacije beleže nagli porast određenog zagađivača u poslednjih sat vremena?
+2. Prikazati lokacije i njihove senzore, koje su nedavno prestale da šalju ažuriranja merenja.
 3. Da li trenutno merenje značajno odstupa od istorijskog proseka za istu lokaciju i period?
-4. Kako se prosečna koncentracija zagađivača menja u toku dana na praćenim lokacijama?
-5. Kada i gde je potrebno generisati alert zbog kontinuiranog prekoračenja definisanih pragova?
+4. Kako se prosečna koncentracija zagađivača menja u toku dana na praćenom senzoru?
+5. Koliko aktivnih lokacija i senzora trenutno doprinosi podacima za grad/državu?
 
