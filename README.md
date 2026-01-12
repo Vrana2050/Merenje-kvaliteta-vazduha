@@ -19,7 +19,7 @@ kako bi se omogućila sveobuhvatna analitika, od dugoročnih trendova do praćen
 
 ## 2. Motivacija
 
-Kvalitet vazduha je u poslednjim godinama postao izuzetno značajna tema, naročito u zemljama regiona. U Srbiji, naročito tokom zimskih meseci, zabeleženi su česti i dugotrajni periodi izrazito lošeg kvaliteta vazduha, što je dovelo do povećanog interesovanja javnosti, stručnjaka i institucija (koje ne postoje) za dostupne podatke i njihovu analizu.
+Kvalitet vazduha je u poslednjim godinama postao izuzetno značajna tema, naročito u zemljama regiona. U Srbiji, naročito tokom zimskih meseci, zabeleženi su česti i dugotrajni periodi izrazito lošeg kvaliteta vazduha, što je dovelo do povećanog interesovanja javnosti, stručnjaka i institucija (šalim se - institucije ne postoje) za dostupne podatke i njihovu analizu.
 
 Lična motivacija za ovaj projekat proistekla je upravo iz tog konteksta — želje da se:
 
