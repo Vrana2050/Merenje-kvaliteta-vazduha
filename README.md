@@ -127,10 +127,10 @@ Važno je istaći sledeće principe:
 
 ### 5.1 Pitanja za paketnu (batch) obradu podataka
 
-1. Kako se prosečne godišnje vrednosti određenog zagađivača menjaju po državama Evrope u posmatranom periodu?
-2. Koje lokacije imaju najveći broj dana sa prekoračenjem dozvoljenih granica zagađenja?
-3. Koji su sezonski obrasci zagađenja (po mesecima) za glavne gradove Evrope?
-4. Da li se uočava dugoročni trend poboljšanja ili pogoršanja kvaliteta vazduha po regionima?
+1. U kojim državama i danima je zagađenje prešlo WHO zdravstvene preporuke?
+2. Koliko su pouzdani senzori i koliko podataka je “sumnjivo” ili nevalidno?
+3. Kako se zagađenje NO₂ promenilo tokom COVID lockdown-a u odnosu na pre pandemije?
+4. oje zemlje su najzagađenije svakog dana po polutantima?
 5. Koliko često i koliko dugo traju epizode visokog zagađenja (uzastopni sati ili dani iznad definisanog praga) po lokacijama u Evropi?
 6. Koje lokacije imaju najveći broj kratkotrajnih, ali veoma visokih skokova zagađenja (npr. satna merenja višestruko veća od uobičajenih vrednosti za tu lokaciju)?
 7. Kako se razlikuju nivoi zagađenja između urbanih i manje urbanizovanih sredina?
